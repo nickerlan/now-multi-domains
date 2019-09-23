@@ -1,0 +1,7 @@
+{
+    "name": "now-multi-domains",
+    "builds": [
+        { "src": "sites/landings/domain.com/next.config.js", "use": "@now/next" },
+        { "src": "static/*", "use": "@now/static" }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+  "name":"now-multi-domains",
+    "private": true,
+    "workspaces": ["lib/*","sites/online/*"]
+  }
