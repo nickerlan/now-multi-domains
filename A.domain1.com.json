@@ -1,0 +1,12 @@
+{
+    "name": "A.domain1.com",
+    "alias":"A.domain1.com",
+    "builds": [
+        { "src": "next.config.js", "use": "@now/next" },
+        { "src": "static/*", "use": "@now/static" }
+    ],
+    "routes":[
+        {"src":"/","dest":"/A.domain1.com"},
+        {"src":"/(.*)","dest":"/A.domain1.com/$1"}
+    ]
+}

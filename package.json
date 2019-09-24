@@ -1,5 +1,13 @@
 {
-  "name":"now-multi-domains",
-    "private": true,
-    "workspaces": ["lib/*","sites/online/*"]
+  "name": "now-multi-domains",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nickerlan/now-multi-domains.git",
+  "author": "Nick Erlan <nickerlan0@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
+}

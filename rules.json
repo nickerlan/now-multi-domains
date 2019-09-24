@@ -1,5 +1,0 @@
-{
-    "rules": [
-      { "pathname": "/sites/landings/domain.com/", "dest": "domain.com" }
-    ]
-  }
