@@ -1,3 +1,7 @@
+**Goal**
+Deploy Next.js projects to Zeit Now using shared code base and different domains.
+
+
 **Dev mode**
 
 now dev -A A.domain1.com.json (Works!)
